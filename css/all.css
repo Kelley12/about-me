@@ -102,6 +102,10 @@ footer a:hover {
 	color: #777;
 	text-decoration: none;
 }
+footer i {
+	font-size: 25px;
+    vertical-align: middle;
+}
 .row {
 	margin: 70px 0;
 }
