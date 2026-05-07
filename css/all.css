@@ -168,7 +168,7 @@ h2, h3, h4 {
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 40px;
-	margin-top: 40px;
+	margin: 40px 0 60px;
 }
 .discovery-grid > div {
 	display: grid;
