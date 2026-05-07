@@ -158,10 +158,12 @@
 						Working with a highly skilled group of developers on a 3D configurator application to create the most effective, delightful buying and selling experiences for customized products.
 					</p>
 					<ul class="responsibilities">
-						<li>Engineer on a 3D configurator with over 600 clients and over half a million monthly users</li>
-						<li>Mentored newly onboarded engineers</li>
-						<li>Build and maintain client application to manage data, sales leads, dealers, and order management</li>
-						<li>Built an internal tool for onboarding new clients and managing client configuration data</li>
+						<li>Lead a CRM application team, driving roadmap, technical direction, and code quality across both product and infrastructure work</li>
+						<li>Engineer on a 3D configurator serving 700+ clients and over 500K monthly users</li>
+						<li>Designed and built a TypeScript-based incremental sync system for Aurora MySQL that mirrors 14 production tables to staging using watermark tracking, topological FK ordering, and batched upserts</li>
+						<li>Architected AWS IAM roles, Secrets Manager policies, and API Gateway domain management to support multi-tenant SST deployments</li>
+						<li>Built an internal onboarding tool that streamlines new client setup and configuration data management</li>
+						<li>Partner with project management on scoping and sequencing new implementations, infrastructure work, and feature priorities</li>
 					</ul>
 				</article>
 
@@ -176,6 +178,22 @@
 						<li>Creating custom data integrations and delivery applications for clients given specific business logic</li>
 						<li>Templatizing generic inbound and outbound project applications</li>
 						<li>Helped automate build and deployment of databases using <a href="https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt">SQL Server Data Tools</a></li>
+					</ul>
+				</article>
+
+				<article class="job reveal">
+					<h3><a href="https://horsinaround.org">Horsin' Around</a></h3>
+					<em>Founder / Developer</em><br>
+					<em>2019 - Present</em>
+					<p class="job-description">
+						Founded and built Horsin' Around, a platform for managing equestrian events and tracking competitive riders. The site gives organizers tools to run shows and gives riders a way to compete, follow their horses' performance, and find events.
+					</p>
+					<ul class="responsibilities">
+						<li>Designed and developed the platform end-to-end, including architecture, infrastructure, UI, and data model</li>
+						<li>Built event management tools for organizers to create and manage series, events, and classes with customizable rules and settings</li>
+						<li>Implemented a real-time scoring and timing system used live during competitions</li>
+						<li>Created rider and horse profiles for tracking competition history and performance over time</li>
+						<li>Shipped event discovery and registration so riders can find and enter local shows</li>
 					</ul>
 				</article>
 
@@ -317,7 +335,7 @@
 						observer.unobserve(entry.target);
 					}
 				});
-			}, { threshold: 0, rootMargin: '0px 0px 25% 0px' });
+			}, { threshold: 0.1, rootMargin: '0px 0px -5% 0px' });
 			document.querySelectorAll('.reveal').forEach(function (el) { observer.observe(el); });
 		})();
 	</script>
