@@ -1,172 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115158003-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-115158003-1');
-    </script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Blake Kelley - About Me</title>
+	<meta name="description" content="Personal resume of Blake Kelley, software engineer at IdeaRoom. Experience across full-stack web development, cloud infrastructure, and data engineering.">
+	<meta name="author" content="Blake Kelley">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://bkelley.dev/">
+	<meta property="og:title" content="Blake Kelley - About Me">
+	<meta property="og:description" content="Personal resume of Blake Kelley, software engineer at IdeaRoom.">
+	<meta property="og:image" content="https://gravatar.com/avatar/a4d170eca08689b2f91f0ef52ea2b6f1?s=400">
+	<meta name="twitter:card" content="summary">
+
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	<link rel="stylesheet" href="css/all.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<title>Blake Kelley - About Me</title>
 </head>
-<body>                
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				</button>
-				<a class="navbar-brand" href="#">
-					<img src="http://gravatar.com/avatar/a4d170eca08689b2f91f0ef52ea2b6f1?s=200" class="img-circle logo" alt="Logo">
-				</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#aboutme">ABOUT ME</a></li>
-					<li><a href="#discovery">DISCOVERY</a></li>
-					<li><a href="#skills">SKILLS</a></li>
-					<li><a href="#experience">EXPERIENCE</a></li>
-					<li><a href="#education">EDUCATION</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
-			</div>
+<body>
+	<header class="navbar">
+		<div class="navbar-inner">
+			<a class="navbar-brand" href="#top" aria-label="Back to top">
+				<img src="https://gravatar.com/avatar/a4d170eca08689b2f91f0ef52ea2b6f1?s=200" class="logo" alt="Blake Kelley avatar" width="55" height="55">
+			</a>
+			<button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation" aria-controls="primary-nav" aria-expanded="false">
+				<span></span><span></span><span></span>
+			</button>
+			<nav class="navbar-nav" id="primary-nav" aria-label="Primary">
+				<a href="#aboutme">About Me</a>
+				<a href="#discovery">Discovery</a>
+				<a href="#skills">Skills</a>
+				<a href="#experience">Experience</a>
+				<a href="#education">Education</a>
+				<a href="#contact">Contact</a>
+			</nav>
 		</div>
-	</nav>
+	</header>
 
-	<div id="aboutme" class="container text-center">
-		<h3>Blake Kelley</h3>
-		<p><em>About Me</em></p>
-		<p>
-			Normally described as a conundrum, you won't find your average tech nerd here. Although I specialize in building web applications (among other things), 
-			I am often spending my time spraying dirt on my motorcycles, shredding on a jet ski, or peddling through terrain on a bike.
-			I am organized, detailed, and invested in whatever I am working on. I also spend a lot of my time further developing my skillsets in all aspects. 
-			I enjoy stimulating my cognitive side and exploring new situations. Difficult tasks do not deter me and only further my need to solve them. 
-			I am not afraid to look to other resources around me when necessary. Please take a moment to see where I've been and what I have accomplished. 
-	</div>
+	<main id="top">
+		<section id="aboutme" class="container text-center">
+			<h2>Blake Kelley</h2>
+			<p><em>About Me</em></p>
+			<p>
+				You won't find your average tech nerd here. I build web applications for a living, but when I'm away from the keyboard you'll catch me spraying dirt on my motorcycles, shredding on a jet ski, or pedaling through trails on a bike.
+				I'm organized, detail-oriented, and fully invested in whatever I'm working on, and I spend plenty of time sharpening my skills, both technical and otherwise.
+				Hard problems don't deter me; they're what pull me in. And I'm not afraid to ask for help or pull in the right resources when it'll get the job done better.
+				Take a look around to see where I've been and what I've built.
+			</p>
+		</section>
 
-	<div class="bg-1">
-		<div id="discovery" class="container text-center">
-			<h3>Discovery</h3>
-			<div class="row">
-				<div class="col-sm-3">
-					<p class="text-center"><strong>Resume</strong></p>
-					<br>
-					<em>That doc about what I know</em>
-				</div>
-				<div class="col-sm-3">
-					<p class="text-center"><strong>LinkedIn</strong></p>
-					<br>
-					<em>My public resume</em>
-				</div>
-				<div class="col-sm-3">
-					<p class="text-center"><strong>GitHub</strong></p>
-					<br>
-					<em>Personal projects</em>
-				</div>
-				<div class="col-sm-3">
-					<p class="text-center"><strong>Blog</strong></p>
-					<br>
-					<em>Blog about technologies I work with or issues I have</em>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<a href="https://drive.google.com/open?id=15OOueNHoFojElZS18zjJ31-LFwkmUoCK">
-						<i class="social far fa-file-alt"></i>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://www.linkedin.com/in/Blake-T-Kelley">
-						<i class="social fab fa-linkedin"></i>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://github.com/Kelley12">
-						<i class="social fab fa-github"></i>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://blog.allpunsindented.com">
-						<i class="social fas fa-blog"></i>
-					</a>
+		<section class="bg-1">
+			<div id="discovery" class="container text-center">
+				<h2>Discovery</h2>
+				<div class="discovery-grid">
+					<div>
+						<p><strong>Resume</strong></p>
+						<em>That doc about what I know</em>
+						<a class="social-link" href="https://drive.google.com/open?id=15OOueNHoFojElZS18zjJ31-LFwkmUoCK" aria-label="Resume" target="_blank" rel="noopener noreferrer">
+							<i class="social far fa-file-alt" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div>
+						<p><strong>LinkedIn</strong></p>
+						<em>My public resume</em>
+						<a class="social-link" href="https://www.linkedin.com/in/Blake-T-Kelley" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+							<i class="social fab fa-linkedin" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div>
+						<p><strong>GitHub</strong></p>
+						<em>Personal projects</em>
+						<a class="social-link" href="https://github.com/Kelley12" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+							<i class="social fab fa-github" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div>
+						<p><strong>Blog</strong></p>
+						<em>Blog about technologies I work with or issues I have</em>
+						<a class="social-link" href="https://blog.allpunsindented.com" aria-label="Personal blog" target="_blank" rel="noopener noreferrer">
+							<i class="social fas fa-blog" aria-hidden="true"></i>
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		</section>
 
-	<div id="skills" class="container text-center">
-		<h3>Skills</h3>
-		<div class="row skill slide-animation">
-			<em>AWS, Serverless</em>
-			<p>Main cloud computing plaform that I am familiar with. Exprience includes IAM, Cognito, Route 53, CloudFront, Lambda, API Gateway, S3</p>
-			<p>Developed our applications using the <a href="https://www.serverless.com/">Serverless framework</a> for simplicity of configuration and deployment</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Node.js, TypeScript, React/Redux, Vue, Material UI, Express, Bulma, Vitest, Mocha, Chai, Jest</em>
-			<p>Primary development stack used at IdeaRoom and Versabuilt.</p>
-			<p>At Versabuilt which I built a product, <a href="https://www.versabuilt.com/robot2cnc.html">Robot2CNC</a>, utilizing a Raspberry Pi to create an application for communication between a robot and a CNC machine using a user interface, REST API, or text based API.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>ASP.NET MVC with C#, LINQ, Razor, HTML, CSS, Javascript/JQuery, Telerik Tools</em>
-			<p>The main stack that I developed web applications in for WhiteCloud and Relias. I have created and maintained several major applications for both internal and customer use. The functionality of these applications ranged from data entry, data load, and data management to user creation and management.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>SQL - SQL Server, MySQL, PostgreSQL, TypeORM</em>
-			<p>My team managed St. Luke's data warehouse as well as our own application databases. I created and maintained databases, tables, views, and stored procedures on a daily basis.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Continuous Integration and Continuous Delivery</em>
-			<p>Experience creating CI/CD pipelines with Azure Devops, Bamboo and Octopus Deploy, Travis CI, CircleCI, AppVeyor and Heroku.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Microsoft BI Stack: SSMS, SSIS, SSAS, SSRS</em>
-			<p>I worked as a BI Developer for some time at WhiteCloud where I worked with the Microsoft BI stack on a day to day basis.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Docker</em>
-			<p>I've used Docker, specifically Docker Compose in several projects to run Node, MySQL, PostgreSQL, and PGAdmin services for development and testing.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>PowerShell</em>
-			<p>I've used PowerShell to automate processes such as downloading files from a SharePoint site or FTP to automating local development machine setup by downloading necessary files and building and deploying projects.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Java, C</em>
-			<p>Most of my Java and C programming comes from school and I do not have much real world experience.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>WordPress/PHP</em>
-			<p>Built and maintain a couple of local business websites. The local motorcycle club website <a href="https://omcracing.com">Owyhee Motorcycle Club</a> and <a href="https://storeytails.com">StoreyTails LLC</a>.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Python</em>
-			<p>I began learning Python to help automate processes for work and my own enjoyment such as Raspberry Pi projects.</p>
-		</div>
-		<div class="row skill slide-animation">
-			<em>Business Intelligence Markup Language (BIML)</em>
-			<p><a href="http://bimlscript.com/">BIML</a> is an XML dialect used to write business intelligence solutions. Combined with BimlScript (C# nuggets embedded in Biml), we were able to turn our SQL Server ETL packages into dynamic and modular files based on templates. Allowing changes to be applied across multiple packages with a single change. This allowed us to simplify and speed up the development process.</p>
-		</div>
-	</div>
+		<section id="skills" class="container text-center">
+			<h2>Skills</h2>
+			<div class="skill reveal">
+				<em>AWS, Serverless</em>
+				<p>Main cloud computing platform that I am familiar with. Experience includes IAM, Cognito, Route 53, CloudFront, Lambda, API Gateway, S3.</p>
+				<p>Developed our applications using the <a href="https://www.serverless.com/">Serverless framework</a> for simplicity of configuration and deployment.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Node.js, TypeScript, React/Redux, Vue, Material UI, Express, Bulma, Vitest, Mocha, Chai, Jest</em>
+				<p>Primary development stack used at IdeaRoom and Versabuilt.</p>
+				<p>At Versabuilt I built a product, <a href="https://www.versabuilt.com/robot2cnc.html">Robot2CNC</a>, utilizing a Raspberry Pi to create an application for communication between a robot and a CNC machine using a user interface, REST API, or text-based API.</p>
+			</div>
+			<div class="skill reveal">
+				<em>ASP.NET MVC with C#, LINQ, Razor, HTML, CSS, JavaScript/jQuery, Telerik Tools</em>
+				<p>The main stack that I developed web applications in for WhiteCloud and Relias. I have created and maintained several major applications for both internal and customer use. The functionality of these applications ranged from data entry, data load, and data management to user creation and management.</p>
+			</div>
+			<div class="skill reveal">
+				<em>SQL - SQL Server, MySQL, PostgreSQL, TypeORM</em>
+				<p>My team managed St. Luke's data warehouse as well as our own application databases. I created and maintained databases, tables, views, and stored procedures on a daily basis.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Continuous Integration and Continuous Delivery</em>
+				<p>Experience creating CI/CD pipelines with Azure DevOps, Bamboo and Octopus Deploy, Travis CI, CircleCI, AppVeyor, and Heroku.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Microsoft BI Stack: SSMS, SSIS, SSAS, SSRS</em>
+				<p>I worked as a BI Developer for some time at WhiteCloud where I worked with the Microsoft BI stack on a day-to-day basis.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Docker</em>
+				<p>I've used Docker, specifically Docker Compose, in several projects to run Node, MySQL, PostgreSQL, and PGAdmin services for development and testing.</p>
+			</div>
+			<div class="skill reveal">
+				<em>PowerShell</em>
+				<p>I've used PowerShell to automate processes such as downloading files from a SharePoint site or FTP, and to automate local development machine setup by downloading necessary files and building and deploying projects.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Java, C</em>
+				<p>Most of my Java and C programming comes from school and I do not have much real-world experience.</p>
+			</div>
+			<div class="skill reveal">
+				<em>WordPress/PHP</em>
+				<p>Built and maintain a couple of local business websites: the local motorcycle club website <a href="https://omcracing.com">Owyhee Motorcycle Club</a> and <a href="https://storeytails.com">StoreyTails LLC</a>.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Python</em>
+				<p>I began learning Python to help automate processes for work and my own enjoyment, such as Raspberry Pi projects.</p>
+			</div>
+			<div class="skill reveal">
+				<em>Business Intelligence Markup Language (BIML)</em>
+				<p><a href="http://bimlscript.com/">BIML</a> is an XML dialect used to write business intelligence solutions. Combined with BimlScript (C# nuggets embedded in Biml), we were able to turn our SQL Server ETL packages into dynamic and modular files based on templates, allowing changes to be applied across multiple packages with a single change. This simplified and sped up the development process.</p>
+			</div>
+		</section>
 
-	<div class="bg-1">
-		<div id="experience" class="container text-center">
-			<h3>Experience</h3>
-				<div class="row slide-animation">
-					<h5><a href="https://idearoom.com">IdeaRoom</a></h5>
-					<em>Software Engineer</em></br>
+		<section class="bg-1">
+			<div id="experience" class="container text-center">
+				<h2>Experience</h2>
+
+				<article class="job reveal">
+					<h3><a href="https://idearoom.com">IdeaRoom</a></h3>
+					<em>Software Engineer</em><br>
 					<em>Aug 2020 - Present</em>
 					<p class="job-description">
 						Working with a highly skilled group of developers on a 3D configurator application to create the most effective, delightful buying and selling experiences for customized products.
@@ -177,143 +163,163 @@
 						<li>Build and maintain client application to manage data, sales leads, dealers, and order management</li>
 						<li>Built an internal tool for onboarding new clients and managing client configuration data</li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5><a href="https://bcidaho.com">Contractor - Blue Cross of Idaho</a></h5>
-					<em>Programmer Analyst</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3><a href="https://bcidaho.com">Contractor - Blue Cross of Idaho</a></h3>
+					<em>Programmer Analyst</em><br>
 					<em>Feb 2020 - Aug 2020</em>
 					<p class="job-description">
-						Working on the Data Integrations and Delivery team focused on providing clients with up to date billing data.
+						Working on the Data Integrations and Delivery team focused on providing clients with up-to-date billing data.
 					</p>
 					<ul class="responsibilities">
 						<li>Creating custom data integrations and delivery applications for clients given specific business logic</li>
 						<li>Templatizing generic inbound and outbound project applications</li>
-						<li>Helped automate build and deployment of databases using <a href="https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15">SQL Server Data Tools</a></li>
+						<li>Helped automate build and deployment of databases using <a href="https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt">SQL Server Data Tools</a></li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5><a href="https://versabuilt.com">Versabuilt Robotics</a></h5>
-					<em>Software Engineer</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3><a href="https://versabuilt.com">Versabuilt Robotics</a></h3>
+					<em>Software Engineer</em><br>
 					<em>Jan 2019 - Oct 2019</em>
 					<p class="job-description">
-						Worked on a small team of developers focused around providing robot automated CNC solutions to manufacturers worldwide.
+						Worked on a small team of developers focused around providing robot-automated CNC solutions to manufacturers worldwide.
 					</p>
 					<ul class="responsibilities">
 						<li>Developed a product, <a href="https://www.versabuilt.com/robot2cnc.html">Robot2CNC</a>, utilizing a <a href="https://www.raspberrypi.org/products/">Raspberry Pi</a> to bridge the communication of various robots with a variety of CNC machines over Serial or Ethernet IP</li>
-						<li>Created a user interface, REST API, and text based API to communicate with the <a href="https://www.versabuilt.com/robot2cnc.html">Robot2CNC</a> for ease of use and versatility</li>
+						<li>Created a user interface, REST API, and text-based API to communicate with the <a href="https://www.versabuilt.com/robot2cnc.html">Robot2CNC</a> for ease of use and versatility</li>
 						<li>Responsible for helping with the release of the latest software for the main company product <a href="https://www.versabuilt.com/pages/products">VBX160</a></li>
-						<li>Improved drivers for controlling Robots and CNC machines</li>
+						<li>Improved drivers for controlling robots and CNC machines</li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5>WhiteCloud Analytics - A <a href="https://www.relias.com/"></a>Relias</a> Company</h5>
-					<em>Software Engineer</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3>WhiteCloud Analytics - A <a href="https://www.relias.com/">Relias</a> Company</h3>
+					<em>Software Engineer</em><br>
 					<em>May 2017 - Jan 2019</em>
 					<p class="job-description">
-						In May of 2017 WhiteCloud Analytics was acquired by <a href="https://www.relias.com/">Relias</a> (formerly Relias Learning). With this change came new opportunity to move around in the company. I moved to a team that was responsible for creating a Common Data Platform which would be the central hub for loading, housing, maintaining, and reporting for all analytics applications. On the team I worked on creating a web application that would allow for other developers to create metrics in a fraction of the time. I also helped create and maintain the automated build and deploy using Bamboo and Octopus. Created automated scripts for quickly setting up or restoring to a fresh state on the servers as well as local development machines. Used Biml and BimlScript to convert the existing load packages into dynamic and modular script files. This allowed existing packages and any new packages to be created using a simple configuration file.
+						In May of 2017 WhiteCloud Analytics was acquired by <a href="https://www.relias.com/">Relias</a> (formerly Relias Learning). With this change came new opportunity to move around in the company. I moved to a team that was responsible for creating a Common Data Platform which would be the central hub for loading, housing, maintaining, and reporting for all analytics applications. On the team I worked on creating a web application that would allow for other developers to create metrics in a fraction of the time. I also helped create and maintain the automated build and deploy using Bamboo and Octopus. Created automated scripts for quickly setting up or restoring to a fresh state on the servers as well as local development machines. Used BIML and BimlScript to convert the existing load packages into dynamic and modular script files. This allowed existing packages and any new packages to be created using a simple configuration file.
 					</p>
 					<ul class="responsibilities">
 						<li>Developer on a team responsible for creating the architecture used to load, store, maintain, and report on all analytics data across multiple clients</li>
 						<li>Designed and implemented an ASP.NET MVC application used to create and maintain healthcare metrics</li>
-						<li>Developed and maintained the teams automated build and deploy using Bamboo and Octopus</li>
+						<li>Developed and maintained the team's automated build and deploy using Bamboo and Octopus</li>
 						<li>Created automated setup scripts for servers and local machines</li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5>WhiteCloud Analytics</h5>
-					<em>Solutions Architect/Scrum Master/Mentor</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3>WhiteCloud Analytics</h3>
+					<em>Solutions Architect / Scrum Master / Mentor</em><br>
 					<em>Dec 2014 - May 2017</em>
 					<p class="job-description">
-						Following a year and a half intership with WhiteCloud, I was offered a full time position on the Research team. My team worked directly with St Luke's Health System, 
-						taking feedback on what type of problems they are trying to solve and quickly creating applications focused around achieving outcomes. I worked directly on an application focused
-						around improving the quality of care provided to patients. I started taking over this application as an intern and fully lead by the time I was hired full time. From there I focused
-						much of my time automating the data load, cleaning up the database, and rewriting application code for reusability so that I could focus on other endeavors. The question of Single Sign On
-						was brought up in an effort to reduce the user support by members of our team. In order for this to be possible, I needed to move our applications to a framework that could support SSO. 
-						I took the lead on recreating our front end application with ASP.NET MVC, having no knowledge of the MVC framework or SSO, I took the initiative to learn what I needed to accomplish this task.
-						I then joined a team focused on creating a platform for loading, processing, and maintaining the various healthcare organizations data.
+						Following a year-and-a-half internship with WhiteCloud, I was offered a full-time position on the Research team. My team worked directly with St. Luke's Health System,
+						taking feedback on what type of problems they were trying to solve and quickly creating applications focused around achieving outcomes. I worked directly on an application focused
+						around improving the quality of care provided to patients. I started taking over this application as an intern and fully led it by the time I was hired full-time. From there I focused
+						much of my time automating the data load, cleaning up the database, and rewriting application code for reusability so that I could focus on other endeavors. The question of Single Sign-On
+						was brought up in an effort to reduce user support by members of our team. In order for this to be possible, I needed to move our applications to a framework that could support SSO.
+						I took the lead on recreating our front-end application with ASP.NET MVC. Having no knowledge of the MVC framework or SSO, I took the initiative to learn what I needed to accomplish this task.
+						I then joined a team focused on creating a platform for loading, processing, and maintaining the various healthcare organizations' data.
 					</p>
 					<ul class="responsibilities">
 						<li>Lead developer responsible for the introduction and implementation of ASP.NET MVC web applications for internal use as well as client interaction</li>
-						<li>Implemented Single Sign On for all of our applications using St. Luke's Health System's ADFS system as our IDP. This allowed us to eliminate maintenance of user passwords</li>
+						<li>Implemented Single Sign-On for all of our applications using St. Luke's Health System's ADFS system as our IDP, eliminating maintenance of user passwords</li>
 						<li>Created simple API endpoints for use by other applications to retrieve data</li>
 						<li>Designed and implemented the data Extraction, Transformation, and Load (ETL) and data mart structures for various applications</li>
-						<li>Developed enterprise wide automated validation across production applications</li>
-						<li>Adopted the Agile Methodology to collaborate with clients to gather requirements, design a Proof of Concept, implement a development environment for User Acceptance Testing and deploying to Production</li>
-						<li>Responsible for building, supporting, and troubleshooting data issues within complex ETLs, Stored Procedures, MDX and SQL queries</li>
-						<li>Work closely with Project Manager and client to ensure timely, successful implementations</li>
-						<li>Collaborating with various members of the team</li>
+						<li>Developed enterprise-wide automated validation across production applications</li>
+						<li>Adopted the Agile methodology to collaborate with clients to gather requirements, design a Proof of Concept, implement a development environment for User Acceptance Testing, and deploy to Production</li>
+						<li>Responsible for building, supporting, and troubleshooting data issues within complex ETLs, stored procedures, MDX and SQL queries</li>
+						<li>Worked closely with Project Manager and client to ensure timely, successful implementations</li>
+						<li>Collaborated with various members of the team</li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5>WhiteCloud Analytics</h5>
-					<em>Intern</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3>WhiteCloud Analytics</h3>
+					<em>Intern</em><br>
 					<em>Jun 2013 - Dec 2014</em>
 					<p class="job-description">
-						After a couple years of school I started looking around for an internship at a tech company and came across WhiteCloud, a small startup in downtown Boise.
-						Upon applying I was able to secure a position where began taking on simple tasks of fixing bugs, adding minor updates, and taking over data loads.
-						When the need for a front end ASP.NET VB application to be taking over, updated, and maintained I eagerly stepped up to task.
-						This was my first non-CMS website and I was able to take it from a basic web page that displayed the current users list of application and expand it to add administrative functionality.
-						With that the application allowed the creation of users which would create the user in the Active Directory and add them to the list of groups while also updating the information in the database.
+						After a couple of years of school I started looking around for an internship at a tech company and came across WhiteCloud, a small startup in downtown Boise.
+						Upon applying I was able to secure a position where I began taking on simple tasks of fixing bugs, adding minor updates, and taking over data loads.
+						When the need arose for a front-end ASP.NET VB application to be taken over, updated, and maintained, I eagerly stepped up to the task.
+						This was my first non-CMS website and I was able to take it from a basic web page that displayed the current user's list of applications and expand it to add administrative functionality.
+						The application allowed the creation of users, which would create the user in Active Directory, add them to the appropriate groups, and update the information in the database.
 					</p>
 					<ul class="responsibilities">
 						<li>Maintained complex applications through data load, ETL, development, and production</li>
-						<li>Implemented a customer facing ASP.NET application to display user applications and manage user access</li>
+						<li>Implemented a customer-facing ASP.NET application to display user applications and manage user access</li>
 						<li>Provided user support to hospital customers utilizing WhiteCloud applications</li>
 					</ul>
-				</div>
-				<div class="row slide-animation">
-					<h5>Flynn's Saddle Shop</h5>
-					<em>Web Administrator</em></br>
+				</article>
+
+				<article class="job reveal">
+					<h3>Flynn's Saddle Shop</h3>
+					<em>Web Administrator</em><br>
 					<em>Feb 2008 - Jun 2013</em>
 					<p class="job-description">
-						I began my first official work experience at a small tack shop in Boise where I started out working in the back room loading grain bags for customer, running the fork lift and stocking shelves. 
-						After some time I began running the register and helping with orders. Once comfortable with that, I expressed interest in helping out with their outdated website. 
-						After getting comfortable with the existing website and getting it up to date, I led the process of migrating the website over to WordPress for easier maintenance. 
-						This was my first real exposure to websites and helped me learn a great deal…mostly the hard way.
+						I began my first official work experience at a small tack shop in Boise, where I started out working in the back room loading grain bags for customers, running the forklift, and stocking shelves.
+						After some time I began running the register and helping with orders. Once comfortable with that, I expressed interest in helping out with their outdated website.
+						After getting comfortable with the existing website and getting it up to date, I led the process of migrating the website over to WordPress for easier maintenance.
+						This was my first real exposure to websites and helped me learn a great deal&hellip; mostly the hard way.
 					</p>
 					<ul class="responsibilities">
 						<li>Created and designed the company's WordPress e-commerce website</li>
 						<li>Maintained website content and inventory</li>
-						<li>Managed the company’s brand development to increase sales</li>
+						<li>Managed the company's brand development to increase sales</li>
 						<li>Increased website traffic growth using SEO</li>
 					</ul>
-				</div>
+				</article>
 			</div>
-		</div>
-	</div>
+		</section>
 
-	<div id="education" class="container text-center">
-		<h3>Education</h3>
-		<p>I attended Boise State Universarity in pursuit of a Bachelors of Science degree in Computer Science and accomplished my goal in December 2014.</p>
-	</div>
-	
-	<div class="bg-1">
-		<div id="contact" class="container">
-			<h3 class="text-center">Contact</h3>
-			<p class="contact"><i class="fas fa-mobile-alt"></i> 208-867-6398</p>
-			<p class="contact"><i class="far fa-envelope"></i> <a href="mailto:blake.t.kelley@gmail.com">blake.t.kelley@gmail.com</a></p>
-			<p class="contact"><i class="far fa-file-alt"></i> <a href="https://drive.google.com/file/d/15OOueNHoFojElZS18zjJ31-LFwkmUoCK/view">Resume</a></p>
-		</div>
-	</div>
+		<section id="education" class="container text-center">
+			<h2>Education</h2>
+			<p>I attended Boise State University in pursuit of a Bachelor of Science in Computer Science and accomplished my goal in December 2014.</p>
+		</section>
+
+		<section class="bg-1">
+			<div id="contact" class="container">
+				<h2 class="text-center">Contact</h2>
+				<p class="contact"><i class="fas fa-mobile-alt" aria-hidden="true"></i> <a href="tel:+12088676398">208-867-6398</a></p>
+				<p class="contact"><i class="far fa-envelope" aria-hidden="true"></i> <a href="mailto:blake.t.kelley@gmail.com">blake.t.kelley@gmail.com</a></p>
+				<p class="contact"><i class="far fa-file-alt" aria-hidden="true"></i> <a href="https://drive.google.com/file/d/15OOueNHoFojElZS18zjJ31-LFwkmUoCK/view">Resume</a></p>
+			</div>
+		</section>
+	</main>
 
 	<footer class="text-center">
-	  <a class="up-arrow" href="#" data-toggle="tooltip" title="Thanks for reading this far. I hope you will consider me for the position.">
-		<span class="glyphicon glyphicon-chevron-up"></span>
-	  </a><br><br>
-	  <p>Made By Blake Kelley. Hosted on <a href="http://github.com/" data-toggle="tooltip" title="GitHub"> <i class="fab fa-github"></i></a></p> 
+		<a class="up-arrow" href="#top" title="Thanks for reading this far. I hope you'll consider me for the position." aria-label="Back to top">
+			<i class="fas fa-chevron-up" aria-hidden="true"></i>
+		</a>
+		<p>Made by Blake Kelley. Hosted on <a href="https://github.com/Kelley12/about-me" title="GitHub" aria-label="GitHub repository"><i class="fab fa-github" aria-hidden="true"></i></a></p>
 	</footer>
 
 	<script>
-		$(window).scroll(function() {
-			$(".slide-animation").each(function(){
-				var position = $(this).offset().top;
-
-				var winTop = $(window).scrollTop();
-				if (position < winTop + 600) {
-				  $(this).addClass("slide");
+		(function () {
+			const toggle = document.getElementById('navbar-toggle');
+			const nav = document.getElementById('primary-nav');
+			toggle.addEventListener('click', function () {
+				const open = nav.classList.toggle('open');
+				toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+			});
+			nav.addEventListener('click', function (e) {
+				if (e.target.tagName === 'A' && nav.classList.contains('open')) {
+					nav.classList.remove('open');
+					toggle.setAttribute('aria-expanded', 'false');
 				}
 			});
-		});
+
+			const observer = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('slide');
+						observer.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0, rootMargin: '0px 0px 25% 0px' });
+			document.querySelectorAll('.reveal').forEach(function (el) { observer.observe(el); });
+		})();
 	</script>
 </body>
 </html>
